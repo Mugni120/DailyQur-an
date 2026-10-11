@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-arabic {
+  font-family: 'Amiri', 'Scheherazade New', serif;
+  line-height: 2.2;
+}
+
+/* Custom theme variables */
+.theme-dark {
+  --bg-main: #090d16;
+  --bg-card: #0f172a;
+  --border-card: #1e293b;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+.theme-light {
+  --bg-main: #f8fafc;
+  --bg-card: #ffffff;
+  --border-card: #e2e8f0;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+}
+
+.theme-sepia {
+  --bg-main: #fbf7ee;
+  --bg-card: #f4ede1;
+  --border-card: #e6dac8;
+  --text-main: #3d342a;
+  --text-muted: #7c6f5e;
+}
+
+/* Tajwid rule color badges and inline highlights */
+.tajwid-idzhar {
+  color: #38bdf8;
+  border-bottom: 2px solid #38bdf8;
+}
+
+.tajwid-idgham-bighunnah {
+  color: #2dd4bf;
+  border-bottom: 2px solid #2dd4bf;
+}
+
+.tajwid-idgham-bilaghunnah {
+  color: #c084fc;
+  border-bottom: 2px solid #c084fc;
+}
+
+.tajwid-iqlab {
+  color: #f59e0b;
+  border-bottom: 2px solid #f59e0b;
+}
+
+.tajwid-ikhfa {
+  color: #fb7185;
+  border-bottom: 2px solid #fb7185;
+}
+
+.tajwid-qalqalah {
+  color: #60a5fa;
+  border-bottom: 2px solid #60a5fa;
+}
+
+.tajwid-mad {
+  color: #34d399;
+  border-bottom: 2px solid #34d399;
+}
+
+.tajwid-ghunnah {
+  color: #f43f5e;
+  border-bottom: 2px solid #f43f5e;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

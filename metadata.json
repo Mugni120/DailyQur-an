@@ -1,0 +1,6 @@
+{
+  "name": "Al-Qur'an Modern PRO",
+  "description": "Platform Al-Qur'an digital modern interaktif dengan 114 surah lengkap, audio qari terkemuka, penjelasan tajwid berwarna, hadist shahih terkait, dan modul latihan hafidz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
